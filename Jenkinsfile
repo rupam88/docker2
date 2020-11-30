@@ -2,8 +2,9 @@ pipeline
       {
       environment
 		{
-		registry = "rupsdan/webapp3"
-		registryCredential = "dockerHub"
+		//registry = "rupsdan/webapp3"
+		//registryCredential = "dockerHub"
+		docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') 
 		}
       agent any
       	stages {
