@@ -12,7 +12,12 @@ pipeline
       	      		{
       	      		steps 
       	      			{
- 				 git url: 'https://github.com/rupam88/docker2.git'
+					git branch: 'main',
+                credentialsId: 'dockerHub',
+                url: 'ssh://git@github.com:rupam88/docker2.git'
+					
+
+ 				 //git url: 'https://github.com/rupam88/docker2.git'
        	    			}
       	    		}
       	    
