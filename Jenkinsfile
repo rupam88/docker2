@@ -12,8 +12,8 @@ pipeline
       	      		{
       	      		steps 
       	      			{
-      	      			sh "git clone https://github.com/rupam88/docker2.git"
-      	    			}
+ 				 git url: 'https://github.com/rupam88/docker2.git'
+       	    			}
       	    		}
       	    
       	      stage("Building Image by RD")
