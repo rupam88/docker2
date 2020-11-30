@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'hhttps://github.com/rupam88/docker2.git', branch:'main'
+        git url:'https://github.com/rupam88/docker2.git', branch:'main'
       }
     }
     
