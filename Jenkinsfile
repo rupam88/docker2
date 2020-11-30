@@ -12,7 +12,7 @@ pipeline
       	      		{
       	      		steps 
       	      			{
-      	      			git "https://github.com/rupam88/docker2.git"
+      	      			sh "git clone https://github.com/rupam88/docker2.git"
       	    			}
       	    		}
       	    
